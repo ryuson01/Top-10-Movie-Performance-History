@@ -8,23 +8,23 @@ It consists of the top 10 movies per year from 1975 to 2014, containing details 
 Movie performance is measured through viewer ratings (Rotten Tomatoes, IMDb), and gross revenue (_https://www.boxofficemojo.com/year/?grossesOption=totalGrosses_).
 
 ## Data Dictionary
-- MovieID	(Text):	Unique number assigned to each movie
-- Title	(Text):	Name of the movie
-- StudioID	(Text):	Unique number assigned to each studio
-- Studio	(Text):	Name of the studio that produced the film
-- Year  (Numeric):	Year in which the movie was released
-- Release Date	(Date):	Day the movie was released in theaters
-- rt_freshness	(Numeric):	Rotten Tomatoes rating from critics
-- rt_audience	(Numeric): Rotten Tomatoes rating from the audience
-- rt_score	(Numeric):	Overall Rotten Tomatoes rating
-- IMDb rating	(Numeric):	IMDb rating
-- Maturity Rating	(Text):	Maturity rating given by experts (G, PG, PG-13, R)
-- Length	(Numeric):	Total runtime of the film
-- Genre ID	(Text):	Unique identifier for each genre
-- Genre(s)	(Text):	Genre(s) that the film falls into
-- Worldwide Gross:	(Numeric)	Total worldwide gross revenue
-- Total Gross	(Numeric):	Total gross revenue of all films released in each year
-- Total Releases	(Numeric):	Number of movies released in each year
+- **MovieID**	(Text):	Unique number assigned to each movie
+- **Title**	(Text):	Name of the movie
+- **StudioID**	(Text):	Unique number assigned to each studio
+- **Studio**	(Text):	Name of the studio that produced the film
+- **Year**  (Numeric):	Year in which the movie was released
+- **Release** Date	(Date):	Day the movie was released in theaters
+- **rt_freshness**	(Numeric):	Rotten Tomatoes rating from critics
+- **rt_audience**	(Numeric): Rotten Tomatoes rating from the audience
+- **rt_score**	(Numeric):	Overall Rotten Tomatoes rating
+- **IMDb rating**	(Numeric):	IMDb rating
+- **Maturity Rating**	(Text):	Maturity rating given by experts (G, PG, PG-13, R)
+- **Length**	(Numeric):	Total runtime of the film
+- **Genre ID**	(Text):	Unique identifier for each genre
+- **Genre(s)**	(Text):	Genre(s) that the film falls into
+- **Worldwide Gross**:	(Numeric)	Total worldwide gross revenue
+- **Total Gross**	(Numeric):	Total gross revenue of all films released in each year
+- **Total Releases**	(Numeric):	Number of movies released in each year
 
 ## Entity Relationship Diagram (ERD)
 The primary entity in our database is **MOVIE**, identified by **MovieID**. The Movie entity includes Studio and Genre, both being multivalued attributes. Year is derived from the movie release date. We have normalized our data and created a relational schema diagram with 6 tables.
