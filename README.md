@@ -3,8 +3,10 @@
 Movies are a popular form of entertainment, and understanding the characteristics that make a movie successful can greatly benefit the film industry. In this project, we explore the traits of the most successful movies of each year to identify key factors that contribute to box office success. Our goal is to assist directors and production studios in making informed decisions for future movie productions based on historical movie revenue and perceived success.
 
 ## Data
-The primary dataset for this project is sourced from Blockbuster (_https://data.world/crowdflower/blockbuster-database/workspace/file?filename=blockbuster-top_ten_movies_per_year_DFE.csv_). 
-It consists of the top 10 movies per year from 1975 to 2014, containing details on movie characteristics, revenue insights, and various rating criteria such as Rotten Tomatoes and IMDb scores. This dataset has eben condensed to include attributes relevant to movie production, such as release date, genre, maturity rating, runtime, production studio, budget, and performance. 
+### Dataset 1: Annual Top 10 Movies: Blockbuster
+The primary dataset for this project consists of the top 10 movies per year from 1975 to 2014, containing details on movie characteristics, revenue insights, and various rating criteria such as Rotten Tomatoes and IMDb scores. This dataset has been condensed to include attributes relevant to movie production, such as release date, genre, maturity rating, runtime, production studio, budget, and performance.(_https://data.world/crowdflower/blockbuster-database/workspace/file?filename=blockbuster-top_ten_movies_per_year_DFE.csv_).
+
+### Dataset 2: Top 10 Movies: Viewer and Critic Ratings
 Movie performance is measured through viewer ratings (Rotten Tomatoes, IMDb), and gross revenue (_https://www.boxofficemojo.com/year/?grossesOption=totalGrosses_).
 
 ## Data Dictionary
