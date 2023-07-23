@@ -4,7 +4,7 @@ Movies are a popular form of entertainment, and understanding the characteristic
 
 ## Data
 ### Dataset 1: Annual Top 10 Movies: Blockbuster
-The primary dataset for this project consists of the top 10 movies per year from 1975 to 2014, containing details on movie characteristics, revenue insights, and various rating criteria such as Rotten Tomatoes and IMDb scores. This dataset has been condensed to include attributes relevant to movie production, such as release date, genre, maturity rating, runtime, production studio, budget, and performance.(_https://data.world/crowdflower/blockbuster-database/workspace/file?filename=blockbuster-top_ten_movies_per_year_DFE.csv_).
+The primary dataset for this project consists of the top 10 movies per year from 1975 to 2014, and contains details regarding movie characteristics, revenue insights, and various rating criteria such as Rotten Tomatoes and IMDb scores. This dataset has been condensed to include attributes relevant to movie production, such as release date, genre, maturity rating, runtime, production studio, budget, and performance (_https://data.world/crowdflower/blockbuster-database/workspace/file?filename=blockbuster-top_ten_movies_per_year_DFE.csv_).
 
 ### Dataset 2: Top 10 Movies: Viewer and Critic Ratings
 Movie performance is measured through viewer ratings (Rotten Tomatoes, IMDb), and gross revenue (_https://www.boxofficemojo.com/year/?grossesOption=totalGrosses_).
@@ -29,7 +29,7 @@ Movie performance is measured through viewer ratings (Rotten Tomatoes, IMDb), an
 - **Total Releases**	(Numeric):	Number of movies released in each year
 
 ## Entity Relationship Diagram (ERD)
-The primary entity in our database is **MOVIE**, identified by **MovieID**. The Movie entity includes Studio and Genre, both being multivalued attributes. Year is derived from the movie release date. We have normalized our data and created a relational schema diagram with 6 tables.
+The primary entity in our database is **MOVIE**, identified by **MovieID**. The Movie entity includes **Studio** and **Genre**- both being multivalued attributes. **Year** is derived from the movie release date. We have normalized our data and created a relational schema diagram with 6 tables.
 
 ## Database Implementation
 This database was implemented with Oracle APEX using CREATE TABLE commands for each table in the schema. The tables created are MOVIE, YEAR, STUDIO, GENRE, MOVIE_GENRE, and MOVIE_STUDIO.
