@@ -30,7 +30,7 @@ Movie performance is measured through viewer ratings (Rotten Tomatoes, IMDb), an
 The primary entity in our database is **MOVIE**, identified by **MovieID**. The Movie entity includes Studio and Genre, both being multivalued attributes. Year is derived from the movie release date. We have normalized our data and created a relational schema diagram with 6 tables.
 
 ## Database Implementation
-We have implemented the database in APEX using CREATE TABLE commands for each table in the schema. The tables created are MOVIE, YEAR, STUDIO, GENRE, MOVIE_GENRE, and MOVIE_STUDIO.
+This database was implemented with Oracle APEX using CREATE TABLE commands for each table in the schema. The tables created are MOVIE, YEAR, STUDIO, GENRE, MOVIE_GENRE, and MOVIE_STUDIO.
 
 ## Analysis
 Our analysis aims to provide production studios and directors with insights into successful movies. By analyzing historical box office success, we identify the best studios, genres, and runtimes for profitable movie productions.
