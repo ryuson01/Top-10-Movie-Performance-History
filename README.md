@@ -1,4 +1,4 @@
-# Top 10 Movie Performance History
+# [Top 10 Movie Performance History](https://apex.oracle.com/pls/apex/r/db_group_project/historical-movie-performance/home?session=732598589482)
 ## Introduction
 Movies are a popular form of entertainment, and understanding the characteristics that make a movie successful can greatly benefit the film industry. In this project, we explore the traits of the most successful movies of each year to identify key factors that contribute to box office success. Our goal is to assist directors and production studios in making informed decisions for future movie productions based on historical movie revenue and perceived success.
 
