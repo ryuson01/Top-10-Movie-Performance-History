@@ -45,6 +45,3 @@ This database was implemented with Oracle APEX using CREATE TABLE commands for e
 
 ## Analysis
 Our analysis aims to provide production studios and directors with insights into successful movies. By analyzing historical box office success, we identify the best studios, genres, and runtimes for profitable movie productions.
-
-## Website
-Feel free to explore this project's web application at **https://apex.oracle.com/pls/apex/r/db_group_project/historical-movie-performance/home?session=732598589482**
